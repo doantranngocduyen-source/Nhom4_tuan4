@@ -1,0 +1,8 @@
+1.	Phân biệt các cấp độ reset
+Soft: khởi động lại thiết bị mà ko xóa dữ liệu
+Ví dụ:
+Chup hinh log
+Nội dung file: …
+2.	Merge và rebase
+Merge là quá trình kết hợp hai lại với nhau. Khi thực hiện merge, Git sẽ tạo ra một commit mới để kết hợp nội dung của hai nhánh. Các thay đổi trên mỗi nhánh sẽ được giữ nguyên và Git tự động giải quyết xung đột nếu có. Nếu không có xung đột, Git sẽ thực hiện merge và tạo ra một commit "merge commit" mới.
+Rebase là quá trình di chuyển toàn bộ lịch sử commit của một nhánh và áp dụng lại chúng vào một nhánh khác. Khi bạn thực hiện rebase, Git sẽ lấy tất cả các commit trên nhánh feature và "di chuyển" chúng để có như thể chúng được tạo ra từ đầu trên nhánh main. Kết quả là lịch sử commit sẽ trở nên thẳng và "sạch" hơn, không có commit "merge".
